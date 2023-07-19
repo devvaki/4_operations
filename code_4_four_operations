@@ -1,9 +1,12 @@
+#defining E and N sets
 E = {0,2,4,6,8};
 N = {1,2,3,4,5};
+#defining functions
 unionn = E|N;
 inter= E&N;
 diff= E-N;
 symm = E^N;
+#printing the values of the above operations
 print("Union of E and N is ",unionn)
 print("Intersection of E and N is ",inter)
 print("Difference of E and N is ",diff)
